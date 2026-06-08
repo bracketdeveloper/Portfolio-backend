@@ -2,11 +2,11 @@
   "name": "portfolio-backend",
   "version": "1.0.0",
   "description": "Secure Node.js and Express API for managing a portfolio website.",
-  "main": "src/server.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/server.js",
-    "start": "node src/server.js",
+    "dev": "nodemon server.js",
+    "start": "node server.js",
     "seed": "node src/seed/seed.js"
   },
   "keywords": [
